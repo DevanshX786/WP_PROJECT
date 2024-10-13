@@ -6,6 +6,9 @@
     user-select: none;
     
 }
+a{
+    text-decoration: none;
+}
 body{
     height: 1000px;
     width: 100%;
@@ -122,5 +125,30 @@ h2{
     outline: none
 }
 #phone{
-    width: 100px;
+    width: 300px;
+    color: white;
+    margin-top: 5px;
+}
+.dob{
+    margin-left: 15px;
+}
+#dob{
+    color: white;
+}
+#password{
+    color: white;
+}
+#confirm_password{
+    color: white;
+}
+.signup_button{
+    font-size: 1.5rem;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15%;
+    background-color: #00fd9b;
+}
+.signup_button:hover{
+    background-color: #01b9dd;
 }
