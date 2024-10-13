@@ -24,7 +24,7 @@ body{
 .navlogo{
     width: 15%;
     height: 100%;
-    background-image: url("logo.png");
+    background-image: url("../resources/logo.png");
     background-size: cover;
 }
 .options{
@@ -105,7 +105,7 @@ body{
     height: 700px;
     width: 1000px;
     position:absolute;
-    background-image: url("New\ Project.png");
+    background-image: url("../resources/New Project.png");
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
