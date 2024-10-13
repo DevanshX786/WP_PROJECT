@@ -3,10 +3,11 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    user-select: none;
     
 }
 body{
-    height: 695px;
+    height: 1000px;
     width: 100%;
     background-image: linear-gradient(to right top, #000000, #0b090b, #131114, #17171a, #1a1d21, #1e2429, #222b31, #263339, #2e3e45, #374952, #40545f, #49606d); 
 }
@@ -18,11 +19,15 @@ body{
     justify-content: space-around;
     color: white;
     background-color: #12181b;
-    position: fixed;
+    position:fixed;
     
 }
-.navlogo{
+#logo{
     width: 15%;
+    height: 100%;
+}
+.navlogo{
+    width: 100%;
     height: 100%;
     background-image: url("../resources/logo.png");
     background-size: cover;
@@ -33,22 +38,24 @@ body{
     justify-content: space-evenly;
     align-items: center;
     font-size: 20px;
+    padding: 10px   ;
+}
+.individual{
+    padding: 10px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 20%;
+    color: white
+}
+.individual:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #00fd9b;
 }
 .profile{
     width: 15%;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
-
-}
-.Signup{
-    padding-top: 10px;
-    padding-bottom:10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: yellowgreen;
-    border-radius: 10px;
-    color: black;
 }
 .login{
     padding-top: 10px;
@@ -58,6 +65,23 @@ body{
     background-color: grey;
     border-radius: 10px;
 }
+.login:hover{
+    background-color:#01b9dd;
+}
+.Signup{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #00fd9b;
+    border-radius: 10px;
+    color: black;
+}
+.Signup:hover{
+    background-color:#01b9dd;
+    color: white;
+}
+
 .home{
     display: flex;
     align-items: center;
@@ -78,6 +102,9 @@ h1{
     color: white;
     font-size: 100px;
 }
+h1:hover{
+    cursor: default;
+}
 .form{
     margin-top: 10px;
     margin-left: 300px;
@@ -89,7 +116,7 @@ h1{
     font-size: 1.5rem;
     background-color: transparent;
     border: 2px solid white;
-    color: white; 
+    color: #01b9dd;
     margin-bottom: 10px;   
 }
 #password{
@@ -98,7 +125,7 @@ h1{
     font-size: 1.5rem;
     background-color: transparent;
     border: 2px solid white;
-    color: white;   
+    color: #00fd9b;   
     margin-bottom: 10px;
 }
 #button{
@@ -112,6 +139,9 @@ h1{
     border-radius: 10%;
     margin-bottom: 5px;
 }
+#button:hover{
+    background-color: #01b9dd;
+}
 #para{
     color: grey;
     font-size: 1.2rem;
@@ -119,4 +149,5 @@ h1{
 #signup{
     color: white;
     font-weight: 700;
+    text-decoration: none;
 }
