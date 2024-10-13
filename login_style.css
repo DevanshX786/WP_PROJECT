@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+body{
+    height: 695px;
+    width: 100%;
+    background-image: linear-gradient(to right top, #000000, #0b090b, #131114, #17171a, #1a1d21, #1e2429, #222b31, #263339, #2e3e45, #374952, #40545f, #49606d); 
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #12181b;
+    position: fixed;
+    
+}
+.navlogo{
+    width: 15%;
+    height: 100%;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+.options{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+.profile{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.Signup{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    color: black;
+}
+.login{
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: grey;
+    border-radius: 10px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    z-index: +10;
+    margin-top: 100px;
+    height: 500px;
+    /* background-color: white; */
+    background-image: url("logo_only.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left: 300px;
+    margin-top: 50px;
+    color: white;
+    font-size: 100px;
+}
+.form{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 20px;
+}
+#loginId{
+    width: 300px;
+    padding:10px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white; 
+    margin-bottom: 10px;   
+}
+#password{
+    width: 300px;
+    padding:10px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;   
+    margin-bottom: 10px;
+}
+#button{
+    background-color: yellowgreen;
+    /* margin-left: 90px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    margin-bottom: 5px;
+}
+#para{
+    color: grey;
+    font-size: 1.2rem;
+}
+#signup{
+    color: white;
+    font-weight: 700;
+}
