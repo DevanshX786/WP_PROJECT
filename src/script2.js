@@ -1,9 +1,9 @@
 const keys = document.querySelectorAll(".keypad .key");
 
-let audio = new Audio("resources/Piano_Music/a.wav");
+let audio = new Audio("../resources/Piano_Music/a.wav");
 
 const playSound = (key) => {
-    audio.src = `resources/Piano_Music/${key}.wav`;
+    audio.src = `../resources/Piano_Music/${key}.wav`;
     audio.play();
 }
 
