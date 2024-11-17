@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:cadetblue;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1000px;
+    height: 550px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: aliceblue;
+}
+
+.keypad{
+    width: 900px;
+    height: 400px;
+    /* background-color: red; */
+    display: grid;
+    /* justify-content: center;
+    align-items: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    column-gap: 2px;
+    position: relative;
+}
+
+.white{
+    width: 88.2px;
+    height: 400px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+
+}
+
+.white:active{
+    background-color: rgb(198, 199, 199);
+}
+
+.key{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.spkey{
+    width: 60px;
+    height: 250px;
+    position: absolute;
+    /* background-color: red; */
+    background: linear-gradient(rgb(83, 83, 83), rgb(0, 0, 0));
+    top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: aliceblue;
+    font-variant: small-caps;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.spkey:active{
+    background: linear-gradient(rgb(83, 83, 83), rgb(52, 52, 52));
+    
+}
+
+.spkey1{
+    
+    left: 58.2px;
+
+}
+
+.spkey2{
+    left: 148.4px;
+}
+
+.spkey3{
+   left: 328.8px;
+}
+
+.spkey4{
+    left: 419px;
+}
+
+.spkey5{
+    left: 509.2px;
+}
+
+.spkey6{
+    left: 691.6px;
+}
+
+.spkey7{
+    right: 58.2px;
+}
